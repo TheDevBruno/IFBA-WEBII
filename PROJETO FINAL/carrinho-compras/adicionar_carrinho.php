@@ -2,11 +2,7 @@
 session_start(); 
 
 
-$produtos = [ // lista os produtos adicionados ao carrinho
-    1 => ['nome' => 'Camiseta', 'preco' => 30.00],
-    2 => ['nome' => 'Calça', 'preco' => 80.00],
-    3 => ['nome' => 'Tênis', 'preco' => 120.00]
-];
+require_once 'produtos.php';
 
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {

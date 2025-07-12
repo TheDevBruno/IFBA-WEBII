@@ -18,7 +18,7 @@ exit();
 </head>
 <body class="<?= $classe_tema ?>">
     <h1>Carrinho de Compras</h1>
-    <p>Bem-vindo, <strong><?= htmlspecialchars($nome_usuario) ?></strong>!</p>
+    <p>Bem-vindo, <strong><?= $nome_usuario ?></strong>!</p>
     <table border="1">
         <tr>
             <th>Produto</th>

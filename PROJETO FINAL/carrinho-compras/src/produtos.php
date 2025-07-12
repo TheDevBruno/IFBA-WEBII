@@ -1,29 +1,52 @@
 <?php
 $produtos = [
     [
-        'nome' => 'Produto 1',
-        'preco' => 10.00,
-        'descricao' => 'Descrição do Produto 1'
-    ],
-    [
-        'nome' => 'Produto 2',
-        'preco' => 20.00,
-        'descricao' => 'Descrição do Produto 2'
-    ],
-    [
-        'nome' => 'Produto 3',
+        'codigo' => 1,
+        'nome' => 'Camiseta',
         'preco' => 30.00,
-        'descricao' => 'Descrição do Produto 3'
+        'descricao' => 'camiseta de algodão, confortável e estilosa'
     ],
     [
-        'nome' => 'Produto 4',
-        'preco' => 40.00,
-        'descricao' => 'Descrição do Produto 4'
+        'codigo' => 2,
+        'nome' => 'Camisa',
+        'preco' => 30.00,
+        'descricao' => 'Camisa casual, perfeita para o dia a dia'
     ],
     [
-        'nome' => 'Produto 5',
+        'codigo' => 3,
+        'nome' => 'calça',
+        'preco' => 80.00,
+        'descricao' => 'calça jeans, ajuste perfeito e durável'
+    ],
+    [
+        'codigo' => 4,
+        'nome' => 'Tênis',
+        'preco' => 120.00,
+        'descricao' => 'Tênis esportivo, leve e resistente'
+    ],
+    [
+        'codigo' => 5,
+        'nome' => 'Jaqueta',
+        'preco' => 150.00,
+        'descricao' => 'Jaqueta de inverno, aquecida e estilosa'
+    ],
+    [
+        'codigo' => 6,
+        'nome' => 'Boné',
         'preco' => 50.00,
-        'descricao' => 'Descrição do Produto 5'
-    ]
+        'descricao' => 'Boné estiloso, proteção contra o sol'
+    ],
+    [
+        'codigo' => 7,
+        'nome' => 'Carregador',
+        'preco' => 50.00,
+        'descricao' => 'Carregador rápido, compatível com diversos dispositivos'
+    ],
+    [
+        'codigo' => 8,
+        'nome' => 'Acessório',
+        'preco' => 60.00,
+        'descricao' => 'Acessório versátil, ideal para complementar seu look'
+    ],
 ];
 ?>
