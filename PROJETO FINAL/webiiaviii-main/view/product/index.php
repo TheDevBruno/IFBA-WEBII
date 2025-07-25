@@ -3,10 +3,10 @@
         <div class="table-title">
             <div class="row">
                 <div class="col-sm-6">
-                    <h2>Products</h2>
+                    <h2>Produtos</h2>
                 </div>
                 <div class="col-sm-6">
-                    <i class="material-icons">&#xE147;</i> <span>Add New Product</span></a>
+                    <i class="material-icons">&#xE147;</i> <span>Adicionar Novo Produto</span></a>
                 </div>
             </div>
         </div>
@@ -14,9 +14,9 @@
             <thead>
             <tr>
                 <th>#</th>
-                <th>Name</th>
-                <th>Price</th>
-                <th>Actions</th>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Ações</th>
             </tr>
             </thead>
             <tbody>
@@ -27,8 +27,8 @@
                     <td><a href="index.php?product=show&id=<?php echo $product->getIdproduct(); ?>"><?= $product->getDesproduct(); ?></a></td>
                     <td><?php echo 'R$'.$product->getVlprice(); ?></td>
                     <td>
-                        <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
-                        <i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i>
+                        <i class="material-icons" data-toggle="tooltip" title="Editar">&#xE254;</i>
+                        <i class="material-icons" data-toggle="tooltip" title="Deletar">&#xE872;</i>
                     </td>
                 </tr>
             <?php endforeach ?>
